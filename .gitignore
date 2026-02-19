@@ -1,0 +1,23 @@
+# 仮想環境フォルダ
+env/
+Set-AzureEnv.ps1
+flask_session/
+
+
+# VScodeフォルダ
+.vscode/
+
+# Pythonのキャッシュファイル
+__pycache__/
+*.pyc
+
+# 特定のOS固有のファイル
+.DS_Store  # macOSの不要ファイル
+Thumbs.db  # Windowsの不要ファイル
+chat_history.json
+
+# ログファイル
+*.log
+
+# 機密情報
+*.env
